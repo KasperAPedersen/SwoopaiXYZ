@@ -1,0 +1,27 @@
+{
+  "name": "swoopaixyz",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon -e js,html,css app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KasperAPedersen/SwoopaiXYZ.git"
+  },
+  "author": "KasperAPedersen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KasperAPedersen/SwoopaiXYZ/issues"
+  },
+  "homepage": "https://github.com/KasperAPedersen/SwoopaiXYZ#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "morgan": "^1.9.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  }
+}
